@@ -6,7 +6,7 @@ import datetime
 print('Hello')
 logger = telebot.logger
 telebot.logger.setLevel(logging.INFO)  # Outputs debug messages to console.
-
+# proverka
 bot = telebot.TeleBot(config.token, threaded=True)
 
 ### Функция проверки авторизации
